@@ -1,0 +1,40 @@
+{
+  "name": "e-learning-backend",
+  "version": "1.0.0",
+  "description": "E-learning Webapplication using MERN stack",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam21sop/e-learning-app.git"
+  },
+  "keywords": [
+    "e-learning",
+    "courses",
+    "DSA",
+    "Webdevelopment"
+  ],
+  "author": "Sopan Bhere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sam21sop/e-learning-app/issues"
+  },
+  "homepage": "https://github.com/Sam21sop/e-learning-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "json-web-token": "^3.2.0",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.2"
+  }
+}
