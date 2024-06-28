@@ -1,7 +1,9 @@
 import app from "./src/app.js";
+import connectToMongoDB from "./src/config/connectToMongodb.js";
+import { PORT } from "./src/constants.js";
 
-const PORT = 5000
 
 app.listen(PORT, ()=>{
-    console.log(`Server listening on http://localhost:${PORT}`);
+    connectToMongoDB()
+    console.log(`Server listening on http://localhost:${PORT || 5000}`);
 })
